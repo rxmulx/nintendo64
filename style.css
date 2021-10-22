@@ -1,0 +1,161 @@
+.logo-wrapper {
+  width: 400px;
+  height: 400px;
+  margin: 100px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.los {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid #ffc100;
+  position: absolute;
+}
+.los:after {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 25px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid #ffc100;
+}
+.los-back {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+  z-index: 100;
+}
+.los-right {
+  top: 58px;
+  right: 0px;
+}
+.los-left {
+  top: 58px;
+  left: 0px;
+  z-index: 25;
+}
+.los-front {
+  top: 120px;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+  z-index: 200;
+}
+
+.col {
+  position: absolute;
+  height: 230px;
+  width: 50px;
+  background: #2600ac;
+  transform: skewY(-25deg);
+}
+.col:after {
+  content: "";
+  position: absolute;
+  height: 230px;
+  width: 50px;
+  background: #009d30;
+  right: 100%;
+  transform: skewY(43deg);
+  top: -23px;
+}
+.col-back {
+  top: 36px;
+  left: 50%;
+  z-index: 10;
+}
+.col-right {
+  bottom: 75px;
+  right: 0px;
+  z-index: 20;
+}
+.col-left {
+  bottom: 75px;
+  left: 50px;
+  z-index: 30;
+}
+.col-front {
+  bottom: 13px;
+  left: 50%;
+  z-index: 190;
+}
+
+.row-front {
+  position: absolute;
+  height: 210px;
+  width: 50px;
+  background: #2600ac;
+  transform: rotateZ();
+  top: 136px;
+  left: 274px;
+  transform: rotateZ(-41deg);
+  z-index: 40;
+}
+.row-front:after {
+  content: "";
+  position: absolute;
+  background: #ff0000;
+  width: 40px;
+  height: 180px;
+  left: -40px;
+  bottom: 25px;
+  transform: skewY(50deg);
+}
+.row-right {
+  position: absolute;
+  width: 80px;
+  height: 160px;
+  background: #009d30;
+  top: 90px;
+  right: 80px;
+  transform: rotateZ(40deg);
+  z-index: 15;
+}
+.row-back {
+  position: absolute;
+  height: 274px;
+  width: 50px;
+  background: #2600ac;
+  top: 45px;
+  left: 125px;
+  transform: rotateZ(31deg);
+  z-index: 25;
+}
+.row-back:after {
+  content: "";
+  position: absolute;
+  background: #009d30;
+  width: 55px;
+  height: 200px;
+  right: 50px;
+  transform: skewY(358deg);
+}
+.row-left {
+  position: absolute;
+  height: 282px;
+  width: 50px;
+  background: #009d30;
+  transform: rotateZ(-31deg);
+  top: 100px;
+  left: 74px;
+  z-index: 35;
+}
+.row-left:after {
+  content: "";
+  position: absolute;
+  background: #ff0000;
+  width: 57px;
+  height: 200px;
+  left: 50px;
+  transform: skewY(5deg);
+  top: 3px;
+}
+
+/*# sourceMappingURL=style.css.map */
